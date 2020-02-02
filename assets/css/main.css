@@ -2165,7 +2165,6 @@ ul.actions.special {
   position: relative;
   height: 24em;
   background: url("../../images/img01.jpg") center center;
-  background-color: rgba(255, 255, 255, 0);
   background-blend-mode: saturation;
   background-size: cover;
   padding: 0;
@@ -2195,6 +2194,8 @@ ul.actions.special {
 }
 
 #logo h1 {
+  position: relative;
+  top: -10px;
   font-weight: 900;
   text-transform: uppercase;
   color: #fff;
@@ -2203,12 +2204,20 @@ ul.actions.special {
 }
 
 #logo p {
+  position: relative;
   color: #fff;
   text-transform: uppercase;
   margin: 1.25em 0 0 0;
   display: block;
   letter-spacing: 0.2em;
   font-size: 0.9em;
+}
+
+#logo img {
+  position: relative;
+  width: 175px;
+  top: -20px;
+  border-radius: 50%;
 }
 
 /* Nav */
