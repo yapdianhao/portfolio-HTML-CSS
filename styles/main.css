@@ -2878,12 +2878,12 @@ textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #378c3f;
+  background: #2e13c7;
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #378c3f;
+  color: #2e13c7;
 }
 
 .progress-container.progress-info .progress {
@@ -3733,7 +3733,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378c3f !important;
+  background-color: #2e13c7 !important;
 }
 
 .bg-info {
